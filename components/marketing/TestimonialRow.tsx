@@ -1,4 +1,6 @@
-export function TestimonialRow({ items }: { items: { quote: string; who: string }[] }) {
+export type Testimonial = { quote: string; who: string };
+
+export function TestimonialRow({ items }: { items: readonly Testimonial[] }) {
   return (
     <div className="grid md:grid-cols-3 gap-4">
       {items.map((t) => (
