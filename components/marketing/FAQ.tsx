@@ -1,4 +1,4 @@
-export function FAQ({ items }: { items: { q: string; a: string }[] }) {
+export function FAQ({ items }: { items: readonly { q: string; a: string }[] }) {
   return (
     <div className="space-y-3">
       {items.map((x) => (
