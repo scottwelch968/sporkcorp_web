@@ -1,0 +1,20 @@
+:root {
+  --paper: 255 255 255;
+  --ink: 15 23 42;
+  --muted: 71 85 105;
+  --fog: 241 245 249;
+  --line: 226 232 240;
+  --panel: 248 250 252;
+  --brand: 2 132 199;
+  --accent: 99 102 241;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: 2 6 23;
+    --ink: 226 232 240;
+    --muted: 148 163 184;
+    --fog: 15 23 42;
+    --line: 30 41 59;
+    --panel: 3 7 18;
+  }
+}

@@ -1,0 +1,1 @@
+export function Badge({ variant='default', children }: { variant?: 'default'|'brand'; children: React.ReactNode }) { return <span className={variant==='brand' ? 'mkt-badge-brand' : 'mkt-badge'}>{children}</span>; }

@@ -1,0 +1,26 @@
+.mkt-section { @apply py-16 md:py-24; }
+.mkt-eyebrow { @apply text-sm font-medium text-muted; }
+.mkt-h1 { @apply text-4xl md:text-6xl font-semibold tracking-tight text-ink; }
+.mkt-h2 { @apply text-3xl md:text-4xl font-semibold tracking-tight text-ink; }
+.mkt-lede { @apply mt-4 text-lg md:text-xl text-muted max-w-2xl; }
+
+.mkt-card { @apply rounded-lg border border-line bg-panel shadow-1; }
+.mkt-card-strong { @apply rounded-lg border border-line bg-paper shadow-2; }
+
+.mkt-btn { @apply inline-flex items-center justify-center gap-2 rounded-pill px-5 py-2.5 text-sm font-medium transition; }
+.mkt-btn-primary { @apply mkt-btn bg-ink text-paper hover:opacity-90; }
+.mkt-btn-secondary { @apply mkt-btn border border-line bg-paper text-ink hover:bg-fog; }
+.mkt-btn-ghost { @apply mkt-btn bg-transparent text-ink hover:bg-fog; }
+
+.mkt-badge { @apply inline-flex items-center rounded-pill border border-line bg-paper px-2.5 py-1 text-xs font-medium text-ink; }
+.mkt-badge-brand { @apply mkt-badge border-transparent bg-brand text-paper; }
+
+.mkt-toggle { @apply inline-flex items-center rounded-pill border border-line bg-paper p-1 shadow-1; }
+.mkt-toggle-btn { @apply rounded-pill px-3 py-1.5 text-sm font-medium text-muted transition; }
+.mkt-toggle-btn-active { @apply bg-ink text-paper; }
+
+.mkt-range { @apply w-full accent-ink; }
+
+.mkt-table { @apply w-full border-separate border-spacing-0 overflow-hidden rounded-lg border border-line; }
+.mkt-th { @apply bg-fog px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted; }
+.mkt-td { @apply border-t border-line px-4 py-3 text-sm text-ink; }
