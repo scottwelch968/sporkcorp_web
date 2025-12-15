@@ -20,7 +20,7 @@ export default function IntegrationsPage() {
 
           <div className="mt-10 grid md:grid-cols-2 gap-4">
             {Object.entries(Content.integrationCategories).map(([cat, items]) => (
-              <Card key={cat} title={cat} description={items.join(" • ")} />
+              <Card key={cat} title={cat} description={[...items].join(" • ")} />
             ))}
           </div>
 
